@@ -1,2 +1,4 @@
 *.zip
 .DS_Store
+.ipynb_checkpoints/
+~cd "/Users/davidgamard/Desktop/openclassrooms final/projet 11" && echo "*.zip" > .gitignore && echo ".DS_Store" >> .gitignore && echo ".ipynb_checkpoints/" >> .gitignore && echo "~$*" >> .gitignore && git add . && git rm --cached "Gamard_David_projet11_produisez_une_etude_22_10_2025/.ipynb_checkpoints/*" 2>/dev/null || true && git add . && git commit -m "Add notebooks and presentation" && git push origin main
